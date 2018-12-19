@@ -10,18 +10,29 @@
 <body>
   <div class="container">
     <h1>Trivia or Whatever</h1>
-    <h3>
-      Time Remaining: <span id='timeRemaining'></span>
-    </h3>
-    <h2>
-      <span id="displayQuestion"></span>
-    </h2>
-    <h2>
-      <span id="displayAnswers"></span>
-    </h2>
-    <h2>
-      <span id="displayCorrectAnswer"></span>
-    </h2>
+    <div id="displayTime">
+      <h3>
+        Time Remaining: <span id='appendTimeRemaining'></span>
+      </h3>
+    </div>
+    <div id="displayQuestion">
+      <h2>
+        <span id="appendQuestion"></span>
+      </h2>
+    </div>
+    <div id="displayAnswers">
+      <form id="appendAnswers">
+        
+      </form>
+    </div>
+    <div id="displayCorrectAnswer">
+      <h2>
+        <span id="appendCorrectAnswer"></span>
+      </h2>
+    </div>
+    <div id="startButton">
+      <button>Start</button>
+    </div>
   </div>
 </body>
 <script src="script.js"></script>
